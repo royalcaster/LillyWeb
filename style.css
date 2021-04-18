@@ -1,0 +1,131 @@
+*, html {
+    margin:0;
+    padding:0;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.lilly_brand {
+    max-height: 60px;
+    width: auto;
+}
+
+.navbar {
+    position: fixed;
+    top:0%;
+    background-color:#242424;
+    border-top: 3px solid #E0C324;
+    box-shadow: 0px 7px 0px rgba(0,0,0,0.2);
+    overflow: hidden;
+}
+
+.navbar-toggler-icon {
+    color: white !important;
+}
+
+.nav-link {
+    color: #F5F5F5 !important;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif; 
+    margin-left: 40px;
+    font-weight: 400;
+    text-align:center;  
+    transition: 0.3s;
+    
+}
+
+.nav-link:hover {
+    box-shadow: inset 0px 0px 20px rgba(0,0,0,0.7);
+    transition: 0.15s;
+    color: #E0C324 !important;
+    
+}
+
+.nav-link i {
+    font-size:35px;
+    vertical-align: middle;
+    text-align:center;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.navbar-collapse {
+    margin-left: 32%;
+}
+
+.main_content{
+    margin-top: 80px;
+}
+
+.main_subcontent {
+    margin-top: 60px;
+}
+
+.subcontent_heading {
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.subcontent_text {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+/* START GALERIE CSS */
+
+.header {
+  text-align: center;
+  padding: 32px;
+}
+
+.row {
+  display: -ms-flexbox; /* IE 10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE 10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+  -ms-flex: 50%; /* IE 10 */
+  flex: 50%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+/* Style the buttons */
+.btn {
+  border: 2px solid black;
+  outline: none;
+  padding: 10px 16px;
+  background-color: blue;
+  cursor: pointer;
+  font-size: 18px;
+}
+/* ENDE GALERIE CSS */
+
+.logo_schwarz {
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 60px;
+}
+
+.img_link:hover {
+    filter: brightness(0.8)
+}
+
+.main_img {
+    height: 600px;
+}
+
